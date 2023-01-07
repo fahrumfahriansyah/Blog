@@ -1,0 +1,66 @@
+.Main_Home {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: whitesmoke;
+
+    .Main_Button {
+        text-align: end;
+        padding: 20px;
+        background-color: rgb(63, 254, 191);
+
+        button {
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: rgb(11, 148, 125);
+            padding: 8px 40px;
+            color: white;
+            transition: 2s;
+        }
+
+        button:hover {
+            transform: scale(0.9);
+            background-color: rgb(6, 224, 236);
+        }
+    }
+
+    .Main_Blog {
+        padding: 10px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        justify-content: center;
+        align-content: center;
+
+        .Main_ {
+            img {
+                margin: auto;
+            }
+
+            h1 {
+                font-size: 16px;
+            }
+
+            h4 {
+                font-size: 12px;
+            }
+
+            p {
+                font-size: 10;
+            }
+        }
+    }
+
+    .Button_list {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}

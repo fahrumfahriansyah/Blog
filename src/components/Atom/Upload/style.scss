@@ -1,0 +1,18 @@
+.Upload {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+
+    img {
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px black;
+        background-color: white;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 18px;
+
+    }
+}

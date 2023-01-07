@@ -1,0 +1,42 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    ul {
+        margin: 0px;
+        display: grid;
+        grid-template-columns: max-content max-content;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(127, 255, 212, );
+        opacity: 0.9;
+        padding: 8px;
+
+        li {
+            list-style: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            img {
+                width: 110px;
+            }
+
+            button {
+                font-family: 'Times New Roman', Times, serif;
+                padding: 5px 15px;
+                border-radius: 5px;
+                background-color: rgb(11, 148, 125);
+                border: 2px solid black;
+                transition: 1s;
+                color: aliceblue;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: rgb(237, 7, 7);
+                transform: scale(0.9);
+            }
+        }
+
+    }
+}

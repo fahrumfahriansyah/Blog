@@ -1,0 +1,35 @@
+.Detail_Blog {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+    img {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+    }
+
+    .List_Blog {
+        text-align: start;
+        background-color: white;
+        padding: 20px;
+    }
+
+    h1,
+    h3,
+    p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        padding: 0 10px;
+        font-style: italic;
+        font-weight: 200;
+    }
+}
